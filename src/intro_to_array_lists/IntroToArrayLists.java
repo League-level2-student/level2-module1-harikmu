@@ -37,5 +37,11 @@ public class IntroToArrayLists {
 			System.out.println("reverse order: " + s);
 		}
 		//7. Print only the Strings that have the letter 'e' in them.
+		for (int i = 0; i < strings.size(); i++) {
+			if (i == 4) {
+			String s = strings.get(i);
+			System.out.println("letter 'e': " + s);
+			}
+		}
 	}
 }
